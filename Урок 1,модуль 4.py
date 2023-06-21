@@ -38,7 +38,13 @@ strcounter_3("asfsdfksdfjgedohjdfposoefw4jyoejkg")
 
 
 
+def palidrom(word):
+    if  word== word[::-1]:
+        return True
+    else:
+         return False
 
+print(palidrom("шалаш"))
 
 
 
